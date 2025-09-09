@@ -56,4 +56,17 @@ header h1 {
 /* Estilo para o rodapé */
 footer {
     background-color: #343a40; /* Cor escura padrão */
+} 
+
+/* 1. Define uma altura fixa para a área de cada imagem no carrossel. */
+#ofertasCarrossel .carousel-item {
+  height: 500px; /* Você pode ajustar este valor para mais alto ou mais baixo */
+  background-color: #f0f0f0; /* Cor de fundo para caso a imagem demore a carregar */
+}
+
+/* 2. Faz a imagem preencher todo o espaço disponível, cortando o excesso. */
+#ofertasCarrossel .carousel-item img {
+  height: 100%;           /* Força a imagem a ter 100% da altura do contêiner (500px) */
+  object-fit: cover;      /* Redimensiona a imagem para cobrir a área, mantendo a proporção e cortando o excesso */
+  object-position: center;/* Centraliza a imagem antes de cortar */
 }
