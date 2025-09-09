@@ -7,3 +7,4 @@ Projeto acadêmico de Fundamentos de Sistemas Web (Fase 2).
 ## Estrutura
 - `index.html`: página principal com cabeçalho, produtos (3 categorias, 2 itens cada), serviços e contato.
 - `ajuda.html`: arquivo de ajuda descrevendo as funcionalidades e navegação.
+- `cadastro.html`: Página de Cadastro.
