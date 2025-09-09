@@ -60,7 +60,7 @@ footer {
 
 /* 1. Define uma altura fixa para a área de cada imagem no carrossel. */
 #ofertasCarrossel .carousel-item {
-  height: 500px; /* Você pode ajustar este valor para mais alto ou mais baixo */
+  height: 500px; /* Você pode ajustar  este valor para mais alto ou mais baixo */
   background-color: #f0f0f0; /* Cor de fundo para caso a imagem demore a carregar */
 }
 
