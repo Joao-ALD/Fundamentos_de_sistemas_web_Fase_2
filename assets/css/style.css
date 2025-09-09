@@ -46,7 +46,7 @@ header h1 {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     max-height: 200px;
-    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    object-fit: cover; /* Garante que a imagem  cubra a área sem distorcer */
 }
 
 .card-title {
