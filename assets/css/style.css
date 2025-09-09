@@ -1,0 +1,59 @@
+/* css/style.css */
+
+/* Estilo geral do corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Garante que o conteúdo principal empurre o rodapé para baixo */
+main {
+    flex: 1;
+}
+
+/* Estilo do cabeçalho e menu de navegação */
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilização dos cards de produto */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%; /* Garante que todos os cards tenham a mesma altura */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de elevação */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+.card-title {
+    color: #007bff; /* Cor primária para o título */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #343a40; /* Cor escura padrão */
+}
